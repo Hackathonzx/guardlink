@@ -1,6 +1,17 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("@nomicfoundation/hardhat-ethers");
+require("dotenv").config();
 
-/** @type import('hardhat/config').HardhatUserConfig */
+const { ARBITRUM_URL, PRIVATE_KEY } = process.env
+
+
 module.exports = {
   solidity: "0.8.0",
-};
+  networks: {
+    arbitrumSepolia: {
+      url: process.env.ARBITRUM_URL,
+      chainId: 421614,
+      accounts: [process.env.PRIVATE_KEY],
+   },
+  }
+}   
