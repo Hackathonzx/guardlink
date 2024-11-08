@@ -1,19 +1,7 @@
-# GuardLink
+# GuardLink: 
 
 GuardLink is a decentralized social recovery and backup delegation service designed to help users secure their assets and identity in Web3. This project leverages MetaMask’s Delegation Toolkit to set up a delegate system where trusted individuals or entities can help recover access in the event of loss or compromise. The project includes gamified features like reputation scores and rewards for delegates to promote active participation and accountability.
 
-Table of Contents
-Project Overview
-Key Features
-Project Architecture
-MetaMask Delegation Toolkit Integration
-Requirements
-Setup Instructions
-Deployment
-Usage Guide
-Future Improvements
-Contributing
-License
 
 # Project Overview
 GuardLink is a smart contract-based application that utilizes the MetaMask Delegation Toolkit to facilitate secure backup delegation and social recovery services. With this system, users can set trusted individuals as delegates who can help recover access to their account in case of a loss. The project emphasizes security, usability, and community engagement through reward systems, gamification, and MetaMask integration.
